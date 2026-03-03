@@ -1,0 +1,433 @@
+/* 
+    fonts families:
+
+*/
+
+/* all elements style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ====================================================================================================================================== */
+
+
+/* body style */
+body{
+    
+    width: 100%;
+    height: 100vh;
+    min-width: 1320px;
+    
+    direction: ltr;
+}
+
+
+/* ====================================================================================================================================== */
+
+
+/* navbar-container */
+#navbar-container{
+width: 100%;
+height: 150px ;
+min-width: 1320px;
+
+display: flex;
+
+
+background-color: #144935;
+
+}
+
+    /* navbar-logo */
+    #navbar-container #nav-logo {
+        width:300px;
+        display: inline-block;
+        margin-top: 20px;
+    }
+
+
+    /* links-container */
+    #navbar-container #links-container{
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 30px;
+
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+
+    /* each link */
+    #navbar-container #links-container a {
+        display: inline-block;
+
+        padding: 10px;
+        border-radius: 10px; 
+        margin: 5px 10px;
+        margin-bottom: 15px;
+        
+        font-size: 20px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+    }
+    #navbar-container #links-container a:hover{
+        background-color: goldenrod;
+        color: black;
+        border-bottom: #fff 2px solid;
+    }
+
+
+
+
+
+/* ====================================================================================================================================== */
+
+
+/* about-head */
+#about-head{
+    padding: 10px;
+    margin: auto;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 0;
+
+    color: goldenrod;
+    text-align: center;
+    font-size: 45px;
+}
+
+
+/* about-container */
+#about-container{
+    display: flex;
+
+    padding: 10px;
+    margin: auto;
+    margin-top: 0px;
+
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+    /* about-p123-container */
+    #about-p123-container{
+        margin-right: 10px;
+        }
+        /* about-p1 */
+        #about-p1{
+            font-size: 20px;
+        }
+        /* about-p2 */
+        #about-p2{
+            font-size: 20px;
+        }
+        /* about-p3 */
+        #about-p3{
+            font-size: 20px;
+        }
+
+
+/* about-image-container */
+#about-image-container{
+    margin-left: 10px ;
+    height: 520px;
+    width: 700px;
+}
+    /* about-image */
+    #about-image{
+
+    }
+
+
+/* ====================================================================================================================================== */
+
+/* video-container */
+#video-container{
+width: 98%;
+margin: auto;
+
+margin-top: 0px;
+margin-bottom: 20px;
+}
+    /* video */
+    video{
+        width: 100%;
+        border: solid 2px goldenrod;
+        border-radius: 10px ;
+
+    }
+
+/* ====================================================================================================================================== */
+
+
+
+/* spe-head */
+#spe-head{
+padding: 10px;
+margin: auto;
+margin-top: 40px;
+margin-right: 5px;
+margin-left: 5px;
+margin-bottom: 5px;
+
+
+color: goldenrod;
+text-align: center;
+font-size: 45px;
+}
+
+
+/* spe-container */
+#spe-container{
+display: flex;
+
+padding-right: 0px;
+margin: 10px;
+margin-top: 0;
+margin-bottom: 60px;
+/* border: solid 2px; */
+}
+
+
+
+/* spe-p-container */
+#spe-p-container{
+    width: 680px;
+
+    /* border: solid 2px; */
+    padding: 5px;
+    margin-right: 550px;
+    margin-top: 5px;
+}
+
+
+
+/* spe-p0 */
+#spe-p0{
+    padding: auto;
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    margin-top: 1px;
+}
+/* spe-p1234-container */
+#spe-p1234-container{
+position: absolute;
+left: 15px;
+/* border: solid 2px; */
+width:650px;
+height: 400px;
+}
+/* Spe-p1 */
+#spe-p1{
+font-size: 25px;
+color: black;
+padding: 10px;
+border: solid 2px;
+border-radius: 20px;
+margin-bottom: 15px;
+background-color: goldenrod;
+height: 95px;
+}
+/* Spe-p2 */
+#spe-p2{
+    font-size: 25px;
+    color: black;
+    padding: 10px;
+    border: solid 2px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    background-color: goldenrod;
+    height: 95px;
+}
+/* Spe-p3 */
+#spe-p3{
+    font-size: 25px;
+
+    padding: 10px;
+    border: solid 2px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+
+    background-color: goldenrod;
+    height: 95px;
+}
+/* Spe-p4 */
+#spe-p4{
+    font-size: 25px;
+
+    padding: 10px;
+    border: solid 2px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+
+    background-color: goldenrod;
+    height: 95px;
+}
+
+
+/* spe-images-container */
+#spe-images-container{
+padding-left: 0px;
+width: 690px;
+margin-top: 3px;
+margin-left: 50px ;
+padding: 10px;
+}
+
+/* spe-image1 */
+#spe-image1{
+    width: 311px;
+    height: 240px;
+
+    border: 3px solid goldenrod;
+}
+
+/* spe-image2 */
+#spe-image2{
+    width: 310px;
+    height: 240px;
+
+    border: 3px solid goldenrod;
+}
+
+/* spe-image3 */
+#spe-image3{
+    width: 310px;
+    height: 240px;
+
+    border: 3px solid goldenrod;
+}
+
+/* spe-image4 */
+#spe-image4{
+    width: 310px;
+    height: 240px;
+
+    border: 3px solid goldenrod;
+}
+
+/* spe-image5 */
+#spe-image5{
+    width: 310px;
+    height: 240px;
+
+    border: 3px solid goldenrod;
+}
+
+/* spe-image6 */
+#spe-image6{
+    width: 310px;
+    height: 240px;
+
+    border: 3px solid goldenrod;
+}
+
+
+
+
+/* ====================================================================================================================================== */
+
+/* laws-head */
+#laws-head{
+padding: 10px;
+margin: auto;
+margin-top: 10px;
+margin-right: 5px;
+margin-left: 5px;
+margin-bottom: 0;
+
+color: goldenrod;
+text-align: center;
+font-size: 45px;
+}
+
+/* laws-container */
+#laws-container{
+display: flex;
+border: solid 2px goldenrod;
+margin: 20px;
+
+}
+    /* laws-p*/
+    #laws-p{
+        font-size: 20px;
+        padding: 10px;
+
+    }
+    /* laws-image-container  */
+    #laws-image-container{
+        width: 600px;
+        height: 500px;
+    }
+        /* laws image */
+        #laws-image-container img{
+            width: 600px;
+            height: 500px; 
+        }
+
+
+/* ====================================================================================================================================== */
+
+
+/* whyus-head */
+#whyus-head{
+    padding: 10px;
+    margin: auto;
+    margin-top: 60px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+
+    color: goldenrod;
+    text-align: center;
+    font-size: 45px;
+}
+
+
+/* whyus-container */
+#whyus-container{
+display: flex;
+
+padding: 10px;
+margin: 10px;
+margin-top: 0;
+margin-bottom: 10px;
+
+}
+
+    /* whyus-p1 */
+    #whyus-p1{
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
+    /* whyus-images-container */
+    #whyus-images-container{
+        width: 620px;
+        height: 300px;
+        display: flex;
+    }
+
+
+
+    /* each image */
+    #whyus-images-container img{
+        margin: 3px;
+        border: goldenrod 2px solid;
+
+    }
+
+/* ====================================================================================================================================== */
+
+
+
+
+
+
+
